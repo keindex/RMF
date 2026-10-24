@@ -1,0 +1,17 @@
+{
+  "description": "Independent setup reference generated from the original Fortran routines; runtime tests load this fixture and do not execute Fortran.",
+  "source": "dirhbs_CRMF.f and dirhb.par",
+  "date": "2026-10-04",
+  "compiler": "gfortran (WinLibs), -O2 -static -ffixed-form -ffixed-line-length-none -std=legacy -fallow-argument-mismatch",
+  "nucleus": "Ca48",
+  "force": "new1",
+  "n0f": 20,
+  "n0b": 30,
+  "ngh": 60,
+  "routines": ["default", "forces", "gaush", "prep", "start", "base", "gaupol", "singf", "singd", "greecou", "greemes"],
+  "layout": "Original Fortran array bounds, before adding Python padding. Float64 stream data reshaped in Fortran order. Only active states and initialized zero COMMON storage are present.",
+  "scalars": ["hom", "hb0", "b0", "nb", "nt", "no", "mv"],
+  "masses": ["amu", "amsig", "amome", "amdel", "amrho"],
+  "couplings": ["gsig", "gome", "gdel", "grho"],
+  "nonlinear": ["z_bs", "z_cs", "z_cw", "z_lv", "z_ds"]
+}

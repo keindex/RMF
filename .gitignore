@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+.venv/
+venv/
+env/
+build/
+dist/
+
+# Generated calculations and plots
+python_output/
+output/*
+!output/.gitkeep
+*.log
+
+# Local restart and editor files
+dirhb.wel
+dirhb.del
+.vscode/
+.idea/
+*.swp
+Thumbs.db

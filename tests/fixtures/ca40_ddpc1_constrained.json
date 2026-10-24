@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "source": "dirhbs_CRMF.f",
+    "sha256": "4bbb8a4ed0ccf309c4d18a5fb7c7dc3025b4af41ecbe3d4678f71a7344aa1263",
+    "compiler_flags": "-O2 -static -ffixed-form -ffixed-line-length-none -std=legacy -fallow-argument-mismatch",
+    "changes": "Temporary driver calls rmf(0.01d0); rmf loop one model DD-PC1; high-precision output added. Numerical routines unchanged. Original workspace source and outputs untouched."
+  },
+  "config": {
+    "symbol": "Ca",
+    "mass_number": 40,
+    "n0f": 8,
+    "n0b": 12,
+    "constraint": 0.01,
+    "model": "DD-PC1",
+    "center_of_mass": 2
+  },
+  "observables": {
+    "energy_per_particle": -8.611341594067678,
+    "radius_charge": 3.4566153912600726,
+    "radius_neutron": 3.317229459460247,
+    "radius_proton": 3.362765227814921,
+    "radius_mass": 3.340074944077757,
+    "els_2d_p": 1.2635248330080397,
+    "els_3p_n": 1.1545696229691202,
+    "els_2f_n": 2.662114624030494,
+    "ecmd_neutron": -8.572599464265593,
+    "ecmd_proton": -8.343323296026064,
+    "ecmd_total": -16.915922760291657,
+    "ecmn_neutron": 4.326189598041867,
+    "ecmn_proton": 4.230029587800052,
+    "ecmn_total": 8.556219185841918,
+    "ecm_neutron": -4.246409866223726,
+    "ecm_proton": -4.113293708226012,
+    "ecm_total": -8.359703574449739
+  }
+}
